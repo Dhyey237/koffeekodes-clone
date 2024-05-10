@@ -1,0 +1,21 @@
+.career-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chai-cup {
+  width: 120px;
+  margin-bottom: 30px;
+}
+.launch-btn {
+  margin-bottom: 30px;
+}
+
+.career-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 80px;
+}

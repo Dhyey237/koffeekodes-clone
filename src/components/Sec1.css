@@ -7,6 +7,22 @@
 }
 .title {
   display: flex;
+  margin-bottom: 50px;
   align-items: center;
   justify-content: space-between;
+  font-size: 65px;
+  font-weight: normal;
+  text-align: left;
+  text-transform: capitalize;
+  color: #1e2226;
+}
+.text-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.text {
+  width: 50%;
+}
+h1 {
+  margin: 0;
 }

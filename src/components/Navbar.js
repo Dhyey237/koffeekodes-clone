@@ -14,26 +14,32 @@ const Navbar = () => {
       <div>
         <img className="app-logo" src={logo} alt="Logo" />
       </div>
-      <ul className="nav-links">
-        <li>
-          <a href="home">Home</a>
-        </li>
-        <li>
-          <a href="work">Work</a>
-        </li>
-        <li>
-          <a href="about">About</a>
-        </li>
-        <li>
-          <a href="career">Career</a>
-        </li>
-        <li>
-          <a href="dedicate">Dedicate</a>
-        </li>
-        <li>
+      <div className="nav-links">
+        <div className="link">
+          <a className="home" href="home">
+            Home{" "}
+          </a>
+          <div className="space">|</div>
+        </div>
+        <div className="link">
+          <a href="work">Work </a>
+          <div className="space">|</div>
+        </div>
+        <div className="link">
+          <a href="about">About </a>
+          <div className="space">|</div>
+        </div>
+        <div className="link">
+          <a href="career">Career </a>
+          <div className="space">|</div>
+        </div>
+        <div className="link">
+          <a href="dedicate">Dedicate </a>
+        </div>
+        <div>
           <button type="button">Contact</button>
-        </li>
-      </ul>
+        </div>
+      </div>
 
       <div className="hamburger-menu" onClick={toggleMobileMenu}>
         <div
