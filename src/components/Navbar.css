@@ -1,0 +1,64 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 120px 0px 120px;
+}
+.app-logo {
+  width: 200px;
+  height: 51.25px;
+}
+/* Navigation links styling */
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+/* Hamburger menu styling */
+.hamburger-menu {
+  display: none; /* Hide hamburger menu by default on desktop */
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+}
+
+/* Mobile navigation links styling */
+.mobile-nav-links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+/* Hamburger menu animation */
+.line.open.line-1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.line.open.line-2 {
+  opacity: 0;
+}
+
+.line.open.line-3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide desktop navigation links on mobile */
+  }
+
+  .hamburger-menu {
+    display: block; /* Show hamburger menu on mobile */
+  }
+}
